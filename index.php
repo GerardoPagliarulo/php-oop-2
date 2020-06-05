@@ -19,7 +19,7 @@ include_once __DIR__ . '/classes/Televisore.php';
         <div>
             <h3>LAPTOP</h3>
             <ul>
-                <?php $laptop = new Laptop('Elettronica', 1000, 'Asus', 'Intel i5', 'Nvidia GTX950M', 'Windows base'); ?>
+                <?php $laptop = new Laptop('Elettronica', 1000, 'Asus', 'Intel i5', 'Nvidia GTX950M', 'Windows home'); ?>
                 <li>Categoria: <?php echo $laptop->categoria; ?></li>
                 <li>Marca: <?php echo $laptop->marca; ?></li>
                 <li>Processore: <?php echo $laptop->cpu; ?></li>
@@ -44,7 +44,7 @@ include_once __DIR__ . '/classes/Televisore.php';
                 <li>Risoluzione: <?php echo $televisore->risoluzione; ?></li>
                 <li>Pollici: <?php echo $televisore->pollici . '"'; ?></li>
                 <li>Prezzo: <?php echo "$televisore->prezzo €"; ?></li>
-                <li>Prezzo superscontato del <?php echo "10% - Bonus50: {$televisore->prezzoScontato()} €"; ?></li>
+                <li>Prezzo scontato del <?php echo "10% - Bonus50: {$televisore->prezzoScontato()} €"; ?></li>
             </ul>
         </div>
     </main>
