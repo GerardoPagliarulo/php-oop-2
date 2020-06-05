@@ -44,7 +44,7 @@ include_once __DIR__ . '/classes/Televisore.php';
                 <li>Risoluzione: <?php echo $televisore->risoluzione; ?></li>
                 <li>Pollici: <?php echo $televisore->pollici . '"'; ?></li>
                 <li>Prezzo: <?php echo "$televisore->prezzo €"; ?></li>
-                <li>Prezzo scontato del <?php echo "10% - Bonus50: {$televisore->prezzoScontato()} €"; ?></li>
+                <li>Prezzo scontato del <?php echo "20% - Bonus50: {$televisore->prezzoScontato()} €"; ?></li>
             </ul>
         </div>
     </main>
