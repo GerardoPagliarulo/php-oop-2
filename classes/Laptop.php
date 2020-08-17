@@ -24,6 +24,6 @@ class Laptop extends Prodotto {
         $this->software = $_software;
     }*/
 }
-// Mostare a schermo -> Constructor ...$params. Richiede l'inserimento nel costruct di tutte le propietà della classe padre
+// Mostare a schermo -> Constructor (a, b, c, ...$params) SEMPRE IN FONTO. Richiede l'inserimento nel costruct di tutte le propietà della classe padre
 /*$laptop = new Laptop('Asus', 'Intel i5', 'Nvidia GTX950M', 'Windows home', 'Elettronica', 50, 10);
 var_dump($laptop);*/

@@ -21,6 +21,6 @@ class Tastiera extends Prodotto {
         $this->materiale_pcb = $_materiale_pcb;
     }*/    
 }
-// Mostare a schermo -> Constructor ...$params. Richiede l'inserimento nel costruct di tutte le propietà della classe padre
+// Mostare a schermo -> Constructor (a, b, c, ...$params) SEMPRE IN FONTO. Richiede l'inserimento nel costruct di tutte le propietà della classe padre
 /*$tastiera = new Tastiera('ABS', 'Cherry Red', 'Metallo', 'Elettronica', 50, 10);
 var_dump($tastiera);*/
